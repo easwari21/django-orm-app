@@ -47,8 +47,7 @@ class hangoutAdmin(admin.ModelAdmin):
 Include your code here
 ```
 ## OUTPUT
-![output](https://github.com/easwari21/django-orm-app/assets/131534979/b337ebf9-b549-4e64-9bb0-4663a3798bf8)
-
+![293369517-b337ebf9-b549-4e64-9bb0-4663a3798bf8](https://github.com/easwari21/django-orm-app/assets/131534979/78314f21-f4f3-4e98-88db-3190be3e1818)
 
 ## RESULT
 
