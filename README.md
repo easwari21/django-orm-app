@@ -29,26 +29,26 @@ Pushing it to the github account
 
 ```
 from django.db import models
-from django.contrib import admin
-# Create your models here.
-class Carsinfo(models.Model):
-    registrationno = models.CharField(max_length=10,primary_key=True)
-    brandname = models.CharField(max_length=100)
-    mileage = models.IntegerField()
-    dateofmanufacture = models.DateField()
-    modelname = models.CharField(max_length=100)
 
-class CarsinfoAdmin(admin.ModelAdmin):
-    list_display = ('registrationno','brandname','mileage','dateofmanufacture','modelname')
-OUTPUT
-Carsinfo
+# Create your models here.
+from django.db import models
+from django.contrib import admin
+# create your models here
+class hangout(models.Model):
+    visitorname = models.CharField(max_length=10,primary_key=True)
+    visitorage = models.IntegerField()
+    pickuplocation = models.CharField(max_length=50)
+    venue = models.CharField(max_length=30)
+    numberofperson = models.IntegerField()
+
+class hangoutAdmin(admin.ModelAdmin):
+
+    list_display = ('visitorname','visitorage','pickuplocation','venue','numberofperson')
+Include your code here
 ```
 ## OUTPUT
+![output](https://github.com/easwari21/django-orm-app/assets/131534979/b337ebf9-b549-4e64-9bb0-4663a3798bf8)
 
-![215270001-5edcb912-dcde-43ce-b92b-0e8d4b93c5f1](https://github.com/easwari21/django-orm-app/assets/131534979/a6badbe2-01f5-45dd-a521-0163d6d4ab54)
-
-
-![215270232-ffcd3bd2-70c2-4bdd-a400-6d98330ddc8d](https://github.com/easwari21/django-orm-app/assets/131534979/98d281f2-36ec-4a31-bdcd-04d1d5380390)
 
 ## RESULT
 
